@@ -1,0 +1,41 @@
+body{
+    background-image: url('https://www.wallpapertip.com/wmimgs/81-813546_rotom-pokedex-background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* X-Small devices (portrait phones, less than 576px)
+ No media query for `xs` since this is the default in Bootstrap*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media screen and (max-width: 576px) { 
+    .img-logo{width: 250px;}
+
+    .card{opacity: 0;width: 80%;height: 600px;margin: auto;}
+    
+    input{border: none;text-align: center;background: transparent;}
+    
+    #img{width: 150px;height: 150px;border-radius: 50%;background-position: center;background-size: cover;background-repeat: no-repeat;}
+    
+    
+    picture{width: 150px;height: 150px;margin: 10px auto;border-radius: 50%;}
+    
+    .stats{flex-wrap: wrap;}
+    
+    footer{position: fixed;left: 0;bottom: 0%;}
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) { 
+    .card{opacity: 0;width: 500px;height: 600px;}
+
+    input{border: none;text-align: center;background: transparent;}
+
+    #img{width: 200px;height: 200px;border-radius: 50%;background-position: center;background-size: cover;background-repeat: no-repeat;}
+    
+    picture{width: 250px;height: 250px;margin: 10px auto;border-radius: 50%;}
+    
+    footer{position: fixed;left: 0;bottom: 0%;}
+}
